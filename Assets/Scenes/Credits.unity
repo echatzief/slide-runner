@@ -194,7 +194,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Menu
+  m_Text: "\u039C\u03B5\u03BD\u03BF\u03CD"
 --- !u!222 &472732006
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -352,7 +352,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Credits
+  m_Text: "\u03A3\u03C5\u03BD\u03C4\u03B5\u03BB\u03B5\u03C3\u03C4\u03AD\u03C2"
 --- !u!222 &876483741
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -588,7 +588,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.48000002}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 21}
-  m_SizeDelta: {x: 136.7, y: 23}
+  m_SizeDelta: {x: 250, y: 23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1388801199
 MonoBehaviour:
@@ -622,8 +622,9 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Made By
+    m_LineSpacing: 34
+  m_Text: "\u0394\u03B7\u03BC\u03B9\u03BF\u03C5\u03C1\u03B3\u03AE\u03B8\u03B7\u03BA\u03B5
+    \u03B1\u03C0\u03CC:"
 --- !u!222 &1388801200
 CanvasRenderer:
   m_ObjectHideFlags: 0

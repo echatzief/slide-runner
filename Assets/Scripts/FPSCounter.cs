@@ -20,7 +20,7 @@ public class FPSCounter : MonoBehaviour
         if (Time.unscaledTime > timer)
         {
             int fps = (int)(1f / Time.unscaledDeltaTime);
-            fpstext.text = "FPS: " + fps;
+            fpstext.text = fps.ToString();
             timer = Time.unscaledTime + HUDRefreshRate;
         }
     }

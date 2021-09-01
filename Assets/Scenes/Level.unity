@@ -797,17 +797,17 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8c6da6b6dcdd14cf2a98299a96a675ea, type: 3}
     m_FontSize: 18
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 81
-    m_Alignment: 5
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: FPS COUNTER
+  m_Text: FPS
 --- !u!222 &1114679881
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1974,6 +1974,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 45068616524714768, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
+      propertyPath: m_Text
+      value: "\u039C\u03B5\u03BD\u03BF\u03CD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 45068616524714768, guid: 50553ffd2b5162d4b8987dc118559bc4,
+        type: 3}
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: 8c6da6b6dcdd14cf2a98299a96a675ea,
@@ -1990,8 +1995,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 45068616524714768, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 45068616524714768, guid: 50553ffd2b5162d4b8987dc118559bc4,
+        type: 3}
       propertyPath: m_FontData.m_FontStyle
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 120780152867679655, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
@@ -2027,7 +2037,7 @@ PrefabInstance:
     - target: {fileID: 694799613413282503, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
       propertyPath: m_Text
-      value: SENSITIVITY
+      value: "\u0395\u03C5\u03B1\u03B9\u03C3\u03B8\u03B7\u03C3\u03AF\u03B1"
       objectReference: {fileID: 0}
     - target: {fileID: 694799613413282503, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
@@ -2053,12 +2063,12 @@ PrefabInstance:
     - target: {fileID: 694799613413282503, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
       propertyPath: m_FontData.m_Alignment
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 694799613413282503, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
       propertyPath: m_FontData.m_FontStyle
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 833374164352918585, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
@@ -2117,6 +2127,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1736851431886913764, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
+      propertyPath: m_Text
+      value: "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B5\u03B9\u03B1"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736851431886913764, guid: 50553ffd2b5162d4b8987dc118559bc4,
+        type: 3}
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: 8c6da6b6dcdd14cf2a98299a96a675ea,
@@ -2128,8 +2143,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1736851431886913764, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736851431886913764, guid: 50553ffd2b5162d4b8987dc118559bc4,
+        type: 3}
       propertyPath: m_FontData.m_FontStyle
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1874457049918464931, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
@@ -2456,7 +2476,7 @@ PrefabInstance:
     - target: {fileID: 3736509608614413967, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
       propertyPath: m_Text
-      value: 'SCORE: 0'
+      value: "\u03A3\u03BA\u03CC\u03C1: 0"
       objectReference: {fileID: 0}
     - target: {fileID: 3819959564137053591, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
@@ -2485,6 +2505,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4138720948214686185, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
+      propertyPath: m_Text
+      value: "\u0395\u03C0\u03B1\u03BD\u03B5\u03BA\u03BA\u03AF\u03BD\u03B7\u03C3\u03B7"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4138720948214686185, guid: 50553ffd2b5162d4b8987dc118559bc4,
+        type: 3}
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: 8c6da6b6dcdd14cf2a98299a96a675ea,
@@ -2496,8 +2521,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4138720948214686185, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4138720948214686185, guid: 50553ffd2b5162d4b8987dc118559bc4,
+        type: 3}
       propertyPath: m_FontData.m_FontStyle
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4279560528273150802, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
@@ -2680,6 +2710,16 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8348623514669021779, guid: 50553ffd2b5162d4b8987dc118559bc4,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9127742712620161015, guid: 50553ffd2b5162d4b8987dc118559bc4,
+        type: 3}
+      propertyPath: m_Text
+      value: "\u039F\u03B4\u03B7\u03B3\u03AF\u03B5\u03C2"
+      objectReference: {fileID: 0}
     - target: {fileID: 9127742712620161015, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
       propertyPath: m_FontData.m_Font
@@ -2698,8 +2738,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9127742712620161015, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9127742712620161015, guid: 50553ffd2b5162d4b8987dc118559bc4,
+        type: 3}
       propertyPath: m_FontData.m_FontStyle
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9201156345927659496, guid: 50553ffd2b5162d4b8987dc118559bc4,
         type: 3}
