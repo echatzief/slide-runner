@@ -4,7 +4,7 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody rb;
     public bool endTrigger;
-    float forwardForce = 300f;
+    float forwardForce = 500f;
     float sidewardForce = 35f;
     static float sensitivity = 0.6f;
     float speedup_factor = 0.0000f;
