@@ -4,10 +4,10 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody rb;
     public bool endTrigger;
-    float forwardForce = 600f;
-    float sidewardForce = 40f;
+    float forwardForce = 300f;
+    float sidewardForce = 35f;
     static float sensitivity = 0.6f;
-    float speedup_factor = 0.0002f;
+    float speedup_factor = 0.0000f;
     // Use this for initialization
     void Start()
     {

@@ -5,8 +5,8 @@ public class SpawnScript : MonoBehaviour
 {
 
     public GameObject spawnObj;
-    public float spawnMin = 0f;
-    public float spawnMax = 1f;
+    public float spawnMin = -6f;
+    public float spawnMax = 6f;
     GameObject player;
     public Vector3 spawnPoint;
     public float offset;
