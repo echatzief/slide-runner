@@ -27,9 +27,12 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.AddForce(0, 0, forwardForce * Time.deltaTime);
         if (!PauseMenu.isGamePaused())
         {
+            if (Input.GetKey("w"))
+            {
+                rb.AddForce(0, 0, forwardForce * Time.deltaTime);  
+            }
             if (Input.GetKey("d") || (Input.touchCount > 0 && Input.GetTouch(0).position.x > Screen.width * 2 / 3))
             {
                 rb.AddForce(sidewardForce * sensitivity * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
